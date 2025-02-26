@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://soumyojitsen5:vovjonyhello@cluster0.u8hyv.mongodb.net/')
 db = client['chatapp1']
 
 users = db['users']
